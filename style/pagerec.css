@@ -1,0 +1,20 @@
+/*.a { display:inline;
+float:left; }
+.b {display: inline;}
+.centre { border: 3px outset black; }*/
+		td
+{
+    font-weight: bolder;
+}
+.btn-warning , .btn-warning :hover, .btn-warning :active, .btn-warning :visited
+ {background-color:	#cc3366  !important;
+ 	text-align: center!important;
+ 	color:white;}
+.imprimer { display:inline;
+float:left; }
+td
+{
+    font-weight: bolder;
+}
+.btn-warning , .btn-warning :hover, .btn-warning :active, .btn-warning :visited
+ {background-color:#cc006d !important;}

@@ -1,0 +1,19 @@
+    form { border: 10px solid #ADD8E6 ;
+    	border-radius: 10px;
+        padding-left: 50px ;
+       margin-left: 3%;
+       margin-right: 3%;
+        background-color: white;
+
+            }
+            .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {background-color:#cc006d !important;}
+             
+
+        img{
+        	position: right; 
+            width: 15%;
+        	height: 30%;
+            
+        }
+      button {color:white;}
+     

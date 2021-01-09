@@ -1,0 +1,142 @@
+html, body {
+  padding:0;
+  margin:0;
+}
+.header {
+  overflow: hidden;
+  background-color: #E6E6FA;
+  padding: 20px 10px;
+  background-image: url('../images/fond-vecteur-lowpoly-creatif_1340-7215.jpg');
+
+}
+.home {
+	display:block;
+	
+}
+.airport{width:1000px;
+height:250px;
+  margin-left: 260px;
+  margin-right: auto;}
+.titre2{
+	position:relative ;
+margin-left: 300px;
+margin-bottom: 20px;
+color:#191970}
+.airport{position:absolute;z-index:-1;}
+.welcome {font-size: 40px;
+	width:800px;/*text-align: center;*/
+margin-left: 502px;}
+.section1 {
+width:400px;
+height:240px;
+}
+.dropdown1{ display: inline-block;
+    }
+    .header {display:flex;
+    	flex-direction:row;}
+    .logo .titre .dropdown2{display:flex;
+    	flex-direction:column;}
+ .dropdown2 { position:absolute;
+ 	margin-top:30px;
+ 	margin-left: 1200px;}
+ .dropdown2 {display:flex;
+ flex-direction: row;}
+.titre { color:#191970/*#696969*/;
+ font-family: Gill Sans, sans-serif	; }
+#btn1 { color:#191970/*#696969*/;
+ font-family: Gill Sans, sans-serif	; }
+ .logo {
+    overflow:hidden;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+    width:150px;
+    height:110px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #2530CD;
+  color: black;
+}
+.dropbtn2 ,.dropbtn1{
+    background-color: #2530CD;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/*.dropdown2 {
+   
+    display: inline-block;
+  
+}
+.dropdown-content2,.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+*/
+/* Links inside the dropdown */
+.dropdown-content2 a,.dropdown-content1 ul li {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    /*display: block;*/
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover,.dropdown-content1 ul li:hover {background-color: #E6E6FA;}
+
+/* Show the dropdown menu on hover */
+/*.dropdown2:hover .dropdown-content2,.dropdown1:hover .dropdown-content1 {
+    display: block;
+      background-color:#C0C0C0;
+}*/
+#navigation {
+background: #E6E6FA;
+  width: 200px;
+  list-style: none;
+  margin: 2px;
+  padding: 2px;
+  position:relative;
+  float:left;
+  border: 1px solid #DCDCDC;
+  height:200vh;
+}
+#navigation li {
+  background: #E6E6FA;
+  color: #DFF2FF ;
+  border: 1px solid #DCDCDC;
+  margin-bottom: 1px ;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown { 
+    float: none;
+  }
+}
